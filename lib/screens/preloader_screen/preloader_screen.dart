@@ -5,15 +5,17 @@ class PreloaderScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Spacer(
-            flex: 6,
+            flex: 10,
           ),
-          CircularProgressIndicator(),
+          Center(child: CircularProgressIndicator()),
           Spacer(
-            flex: 1,
+            flex: 2,
           ),
         ],
       ),

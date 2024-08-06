@@ -1,3 +1,4 @@
+import 'package:barcode_db/configs/app_consts/app_consts.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
@@ -10,5 +11,5 @@ void setup() {
       () => SharedPreferences.getInstance());
 
   locator.registerSingleton<Dio>(
-      Dio(BaseOptions(baseUrl: "AppConsts.baseUrl", headers: {})));
+      Dio(BaseOptions(baseUrl: AppConsts.baseUrl, headers: {})));
 }

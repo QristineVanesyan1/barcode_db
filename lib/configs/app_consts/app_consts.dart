@@ -1,5 +1,3 @@
 class AppConsts {
-  static const String appId = '';
-  static const String appAppleId = '';
-  static const String appCountry = '';
+  static String baseUrl = "https://www.google.com/";
 }
