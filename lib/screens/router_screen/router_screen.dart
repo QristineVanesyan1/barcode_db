@@ -1,3 +1,4 @@
+import 'package:barcode_db/screens/preloader_screen/preloader_screen.dart';
 import 'package:flutter/material.dart';
 
 class RouterScreen extends StatelessWidget {
@@ -5,6 +6,6 @@ class RouterScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return PreloaderScreen();
   }
 }
